@@ -1,0 +1,43 @@
+.author {
+	float: left;
+	margin-right: 10px;
+	font-style: italic;
+}
+
+.msg-body {
+	text-align: left;
+}
+
+.chat-panel {
+	border: 1px solid #999999;
+	padding: 0px;
+}
+.chat-left {
+	padding: 20px;
+}
+.chat-right {
+	border-left: 1px solid #999999;
+}
+.chat-body {
+	padding: 20px;
+	height: 70vh;
+	overflow-y: scroll;
+}
+.chat-footer {
+	border-top: 1px solid #999999;
+	padding: 20px;
+}
+
+#message_input {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#attached_input {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#submit_btn {
+	display: inline-block;
+	float: right;
+}
