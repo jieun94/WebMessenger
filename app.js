@@ -36,7 +36,6 @@ mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 
 var databaseUrl = 'mongodb://localhost:27017/';
-//var awsUrl = 'mongodb://libero:200821@13.209.41.26:27017';
 function mogooseConnecting () {
 	mongoose.connect(databaseUrl,{ dbName: 'libero'}, function(err, db) {
 		
